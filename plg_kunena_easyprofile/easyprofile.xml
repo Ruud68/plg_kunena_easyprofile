@@ -49,7 +49,7 @@
 					where="a.published=1 AND a.link LIKE 'index.php?option=com_jsn&amp;view=list%'"
 					field="id"
 					multiple="false"
-					required="true"
+					required="false"
 					>
 				</field>
 			</fieldset>

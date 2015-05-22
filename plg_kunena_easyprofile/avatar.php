@@ -24,9 +24,9 @@ class KunenaAvatarEasyprofile extends KunenaAvatar {
 		{
 	 		$user = KunenaFactory::getUser($user->userid);
         	        $user = JsnHelper::getUser($user->userid);
-        	        if ($sizex <= 90)
+        	        if ($sizex <= 50)
         	        {
-        	                $avatar = JURI::root( true ).'/'.$user->getValue('avatar_mini').'?'.$ruud;
+        	                $avatar = JURI::root( true ).'/'.$user->getValue('avatar_mini');
         	        }
         	        else
         	        {

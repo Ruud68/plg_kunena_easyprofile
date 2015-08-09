@@ -23,6 +23,7 @@ Tested with Kunena 3.x and 4.x (beta)
 Currently the following languages are implemented:
 * en-GB
 * nl-NL
+* es-ES (Thanks to Francisco Javier González Duque)
 
 If you want to contribute a translation, feel free to make a pull request or just sent me the language files.
 

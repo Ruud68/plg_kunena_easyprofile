@@ -1,6 +1,6 @@
 <?php
 /**
- * @author		Ruud van Lent
+ * @author		Onlinecommunityhub.nl
  * @copyright	
  * @license		GNU General Public License version 3 or later
  */

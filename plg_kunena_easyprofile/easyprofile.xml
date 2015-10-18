@@ -2,11 +2,11 @@
 <!DOCTYPE extension>
 <extension version="2.5" type="plugin" group="kunena" method="upgrade">
 	<name>PLG_KUNENA_EASYPROFILE</name>
-	<version>1.0</version>
-	<creationDate>2015-04-22</creationDate>
-	<author>X-ceed</author>
-	<authorEmail>info@x-ceed.nl</authorEmail>
-	<authorUrl>http://www.x-ceed.nl</authorUrl>
+	<version>1.0.1</version>
+	<creationDate>2015-10-18</creationDate>
+	<author>Onlinecommunityhub</author>
+	<authorEmail>info@onlinecommunityhub.nl</authorEmail>
+	<authorUrl>https://onlinecommunityhub.nl</authorUrl>
 	<copyright>.</copyright>
 	<license>http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL</license>
 	<description>PLG_KUNENA_EASYPROFILE_DESCRIPTION</description>

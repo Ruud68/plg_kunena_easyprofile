@@ -15,15 +15,15 @@ class KunenaProfileEasyprofile extends KunenaProfile {
 
         public function getUserListURL($action = '', $xhtml = true)
         {
+		$config = KunenaFactory::getConfig();
+	        $my     = JFactory::getUser();
+
                 if ($config->userlist_allowed == 1 && $my->id == 0)
                 {
                         return false;
                 }
                 elseif ($this->params->get('userlist', 0)  == 0)
 		{
-			$config = KunenaFactory::getConfig();
-	                $my     = JFactory::getUser();
-
 			return KunenaRoute::_('index.php?option=com_kunena&view=user&layout=list' . $action, $xhtml);
 		}
 		else
